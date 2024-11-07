@@ -74,9 +74,10 @@ def create_graph_classification_dataset(doc_dir, label_file):
 
     return dataset
 
-dot_dir = "dot/all"
-label_file = "label/labels.txt"
-dataset = create_graph_classification_dataset(dot_dir, label_file)
+
+if __name__ == '__main__':
+    main()
+
 
 end_time = time.time()
 run_time = end_time - start_time  

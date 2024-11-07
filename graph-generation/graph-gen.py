@@ -40,9 +40,5 @@ def joern_generate_pdg(bin_file, outdir):
 
 
 if __name__ == '__main__':
-    c_code_folder = './mydata/openssl'  
-    dot_output_folder = './mydata/bin' 
-    joern_path_1 = '/root/joern-cli/bin' 
-
-    generate_dot_pdg(c_code_folder, dot_output_folder, joern_path_1)
+    main()
 
